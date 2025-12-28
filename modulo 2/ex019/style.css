@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+
+body {
+    font-style: italic;
+    background-color: rgb(212, 165, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h1 {
+    color: rgb(58, 12, 100);
+}
+
+h1#topo {
+    text-align: center;
+    background-color: rgb(58, 12, 100);
+    color: rgb(221, 186, 255);
+}
+
+h2 {
+    color: rgb(65, 17, 109);
+}
+
+.principal  {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.basico {
+    background-image: linear-gradient(to right, rgb(130, 66, 190), rgb(208, 161, 252),rgb(212, 165, 255));
+    color: rgb(221, 186, 255);
+}
+
+.intermediario {
+    background-image: linear-gradient(to right, rgb(89, 34, 141), rgb(166, 108, 221), rgb(212, 165, 255));
+    color: rgb(221, 186, 255);
+}
+
+.avancado {
+    background-image: linear-gradient(to right, rgb(57, 12, 99), rgb(156, 96, 212) );
+    color: rgb(221, 186, 255);
+}
