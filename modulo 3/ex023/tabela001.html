@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        table {
+            width: 450px;
+            border-collapse: collapse;
+            font-size: x-large;
+            font-weight: bold;
+            color: white;
+        }
+
+        td {
+            border: 2px solid black;
+            border: double rgb(255, 255, 255);
+            padding: 20px;
+            text-align: center;
+        }
+
+        tr.linha01 {
+            background-color: black;
+            
+        }
+
+        tr.linha02 {
+            background-image: linear-gradient(to top, white, black);
+            
+        }
+
+        tr.linha03 {
+            background-image: linear-gradient(to bottom, white, red);
+            
+        }
+
+        tr.linha04 {
+            background-color: red;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Minha Primeira Tabela</h1>
+        <!-- HIERARQUIA DAS TABELAS:
+            Table <table/> = tabela
+                Table Row <tr/> = linha de tabela 
+                    Table Header <th/> = cabeçalho da tabela
+                    Table Data <td/> = dados de tabela
+        -->
+
+    <table>
+        <tr class="linha01">
+            <td>A01</td>
+            <td>B01</td>
+            <td>C01</td>
+            <td>D01</td>
+        </tr>
+        <tr class="linha02">
+            <td>A02</td>
+            <td>B02</td>
+            <td>C02</td>
+            <td>D02</td>
+        </tr>
+        <tr class="linha03">
+            <td>A03</td>
+            <td>B03</td>
+            <td>C03</td>
+            <td>D03</td>
+        </tr>
+        <tr class="linha04">
+            <td>A04</td>
+            <td>B04</td>
+            <td>C04</td>
+            <td>D04</td>
+        </tr>
+    </table>
+</body>
+</html>
