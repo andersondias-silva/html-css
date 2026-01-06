@@ -92,6 +92,11 @@ section#img02 {
     background-image: url(../imagens/background002.jpg);
 }
 
+@media (max-widht: 700px) {
+    #img01 {background-attachment: scroll;}
+    #img02 {background-attachment: scroll;}
+}
+
 footer {
     background-color: black;
     color: white;
