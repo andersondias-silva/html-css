@@ -11,6 +11,8 @@
 
         h1 {
             font-size: 30px;
+            width: 400px;
+            text-align: center;
         }
 
         table {
@@ -26,11 +28,19 @@
         thead {
             background-color: lightgray;
         }
+
+        .num {
+            text-align: right;
+        }
+
+        tfoot > tr > th {
+            text-align: left;
+        }
     </style>
 
 </head>
 <body>
-    <h1>Uso de tabelas grandes</h1>
+    <h1>Os 10 maiores estados do Brasil em 2025</h1>
     <!-- ANATOMIA PARA TABELAS GRANDES 
         TABLE
             THEAD
@@ -50,33 +60,49 @@
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td>46 081 801</td>
+                <td class="num">46 081 801</td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
-                <td>21 393 441</td>
+                <td class="num">21 393 441</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
-                <td>17 223 547</td>
+                <td class="num">17 223 547</td>
             </tr>
             <tr>
                 <td>Bahia</td>
-                <td>14 870 907</td>
+                <td class="num">14 870 907</td>
             </tr>
             <tr>
                 <td>Paraná</td>
-                <td>11 890 517</td>
+                <td class="num">11 890 517</td>
             </tr>
             <tr>
                 <td>Rio Grande do Sul</td>
-                <td>11 233 263</td>
+                <td class="num">11 233 263</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 562 007</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 711 196</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">8 187 029</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th>Total de Habitantes</th>
-                <td>000</td>
+                <td class="num">158 422 544</td>
             </tr>
         </tfoot>
     </table>           
