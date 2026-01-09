@@ -9,6 +9,12 @@
             font-family: 'Courier New', Courier, monospace;
         }
 
+        caption {
+            background-color: antiquewhite;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
         h1 {
             font-size: 30px;
             width: 380px;
@@ -26,11 +32,21 @@
         }
 
         thead {
+            background-color: rgb(49, 49, 49);
+            color: antiquewhite;
+        }
+
+        tbody > tr:nth-child(2n) {
             background-color: lightgray;
         }
 
         .num {
             text-align: right;
+        }
+
+        tfoot {
+            background-color: rgb(49, 49, 49);
+            color: antiquewhite;
         }
 
         tfoot > tr > th {
@@ -51,10 +67,11 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -101,8 +118,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <td class="num">158 422 544</td>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>158 422 544</strong></td>
             </tr>
         </tfoot>
     </table>           
