@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELA B</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+        }
+
+        h1 {
+            font-weight: lighter;
+            text-align: center;
+            width: 300px;
+            box-shadow: 1px 1px 3px black;
+            background-color: rgb(248, 95, 95);
+            color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+            font-size: larger;
+            background-color: rgb(255, 231, 231);
+            box-shadow: 1px 1px 1.5px black;
+        }
+
+        td {
+            border: 1.5px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        caption {
+            font-weight: bolder;
+            text-align: center;
+            width: 300px;
+            background-color: rgb(158, 63, 82);
+            border: 1.5px solid black;
+            border-bottom: none;
+            padding: 5px 0px 5px 0px;
+            color: white;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        .span {
+            background-color: rgb(221, 109, 132);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>TABELAS MESCLADAS pt.2</h1>
+    <table>
+    <caption>TABELA B</caption>
+        <tr>
+            <td class="span" colspan="4">A</td>
+            <td class="span" rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td class="span" rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td class="span" colspan="4">M</td>
+        </tr>
+    </table>    
+</body>
+</html>
