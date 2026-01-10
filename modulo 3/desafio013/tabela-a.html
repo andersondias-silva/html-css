@@ -4,12 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TABELA A</title>
+    <style>
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        h1 {
+            font-weight: lighter;
+            text-align: center;
+            width: 300px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+            font-size: larger;
+            background-color: whitesmoke;
+        }
+
+        td {
+            border: 1.5px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .span {
+            background-color: ghostwhite;
+        }
+
+    </style>
 </head>
 <body>
     <h1>TABELAS MESCLADAS</h1>
     <table>
         <tr>
             <td>1</td>
+            <td>2</td>
+            <td class="span" rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td class="span" colspan="3">8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td class="span" rowspan="2">10</td>
+            <td class="span" colspan="2">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
         </tr>
     </table>
 </body>
